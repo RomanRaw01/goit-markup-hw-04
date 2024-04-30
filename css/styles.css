@@ -353,8 +353,7 @@ address {
 }
 
 .li-c {
-    position: relative;
-    overflow: hidden;
+
     max-width: 360px;
     height: 420px;
     width: calc((100% - 3 * 24px));
@@ -396,6 +395,11 @@ address {
     overflow: auto;
 }
 
+.img-b {
+    position: relative;
+    overflow: hidden;
+}
+
 .ingredient-overlay {
     position: absolute;
     top: 0;
@@ -408,7 +412,7 @@ address {
     transition: transform 250ms cubic-bezier(0.4, 0, 0, 2, 1);
 }
 
-.li-c .ingredient-overlay {
+.img-b:hover .ingredient-overlay {
     transform: translateY(0%);
 }
 
