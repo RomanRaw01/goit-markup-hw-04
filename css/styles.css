@@ -474,7 +474,10 @@ address {
 }
 
 .icon-footer {
+
     align-items: baseline;
+    justify-content: center;
+
 }
 
 .end-b {
