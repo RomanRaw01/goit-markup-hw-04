@@ -473,7 +473,9 @@ address {
     color: #f4f4fd;
 }
 
-.icon-footer {}
+.icon-footer {
+    align-items: baseline;
+}
 
 .end-b {
     margin-bottom: 16px;
