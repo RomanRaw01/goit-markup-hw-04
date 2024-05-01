@@ -427,6 +427,8 @@ address {
     background: #fff;
 }
 
+
+
 .footer-end {
     background: #2e2f42;
     padding: 100px 0;
@@ -434,8 +436,6 @@ address {
 }
 
 .container-footer {
-    display: flex;
-    flex-direction: column;
     margin-right: 120px;
 }
 
@@ -476,12 +476,10 @@ address {
 .icon-footer {
     display: flex;
     align-items: baseline;
-    justify-content: center;
-
 }
 
 .end-b {
-    margin-bottom: 16px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -508,17 +506,8 @@ address {
     transition: color 250ms cubic-bezier(0.4, 0, 0, 2, 1);
 }
 
-.svg-footer {
-    fill: #f4f4fd;
-}
-
 .ul-icon-footer {
     display: flex;
     gap: 16px;
     justify-content: center;
-}
-
-.link-icon-footer {
-    width: 40px;
-    height: 40px;
 }
