@@ -427,15 +427,15 @@ address {
     background: #fff;
 }
 
-
-
 .footer-end {
     background: #2e2f42;
     padding: 100px 0;
-
+    display: flex;
 }
 
 .container-footer {
+    display: flex;
+    flex-direction: column;
     margin-right: 120px;
 }
 
@@ -473,10 +473,7 @@ address {
     color: #f4f4fd;
 }
 
-.icon-footer {
-    display: flex;
-    align-items: baseline;
-}
+.icon-footer {}
 
 .end-b {
     margin-bottom: 16px;
