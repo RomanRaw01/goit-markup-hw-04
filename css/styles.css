@@ -78,7 +78,7 @@ body {
 .menu {
     display: flex;
     gap: 40px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0, 2, 1);
+
 }
 
 .menu-link {
@@ -89,12 +89,12 @@ body {
     color: #2e2f42;
     padding: 24px 0;
     display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0, 2, 1);
 }
 
 .current {
     position: relative;
     color: #404bbf;
-    transition: color 250ms cubic-bezier(0.4, 0, 0, 2, 1);
 }
 
 .current::after {
@@ -109,6 +109,7 @@ body {
     transition: color 250ms cubic-bezier(0.4, 0, 0, 2, 1);
 }
 
+/*=======ADDRESS=======================*/
 address {
     font-style: normal;
     margin-left: auto;
@@ -117,7 +118,6 @@ address {
 .address-list {
     display: flex;
     gap: 40px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0, 2, 1);
 }
 
 .menu-link:hover {
@@ -417,7 +417,7 @@ address {
 
 .img-b {}
 
-.ingredient-overlay {}
+
 
 .section-portfolio {
     background: #f4f4fd;
@@ -482,10 +482,7 @@ address {
 
 .icon-footer {}
 
-.link-icon-footer {
-    width: 40px;
-    height: 40px;
-}
+
 
 .end-b {
 
@@ -524,4 +521,9 @@ address {
     display: flex;
     gap: 16px;
     justify-content: center;
+}
+
+.link-icon-footer {
+    width: 40px;
+    height: 40px;
 }
