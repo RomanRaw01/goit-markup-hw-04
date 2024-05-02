@@ -427,12 +427,19 @@ address {
     background: #fff;
 }
 
+.footer {
+    display: block;
+}
 
+.footer-div {
+    display: flex;
+    align-items: baseline;
+}
 
 .footer-end {
     background: #2e2f42;
     padding: 100px 0;
-    display: flex;
+
 }
 
 .container-footer {
@@ -473,9 +480,11 @@ address {
     color: #f4f4fd;
 }
 
-.icon-footer {
-    display: flex;
-    align-items: baseline;
+.icon-footer {}
+
+.link-icon-footer {
+    width: 40px;
+    height: 40px;
 }
 
 .end-b {
@@ -485,6 +494,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
+    margin-bottom: 16px;
 
 }
 
